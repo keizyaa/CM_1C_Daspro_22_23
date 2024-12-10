@@ -23,6 +23,7 @@ public class CM_1C_Daspro_22_23 {
 
     static void tampilData() {
         System.out.println("====== DATA INVENTORI ====== ");
+        System.out.println();
         
     }
 }
