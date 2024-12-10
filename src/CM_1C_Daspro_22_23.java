@@ -68,7 +68,7 @@ public class CM_1C_Daspro_22_23 {
         System.out.print("Masukkan jumlah stok yang ingin ditambahkan: ");
         int tambahanStok = sc.nextInt();
 
-        if (nomor > 0 && nomor <= jmlItem) {
+        if (nomor > 0) {
             stokItem[nomor - 1] += tambahanStok;
             System.out.println("Stok " + namaItem[nomor - 1] + " berhasil ditambah. Stok sekarang: " + stokItem[nomor - 1]);
         } else {
